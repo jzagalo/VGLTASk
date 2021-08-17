@@ -34,7 +34,7 @@ export default class AttributeStars extends Vue  {
   private computedColor = ''
   private computedText = ''
   private computedScore = ''
-  simpleText = "Hello world"
+
 
   private typeArray = ['sehr gut', 'gut', 'befriedigend','ausreichend','mangelhaft','ungenügend' ]
 
