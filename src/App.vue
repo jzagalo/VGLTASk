@@ -1,23 +1,25 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div id="app">   
+    <AttributeStars :rating=100 :showScore="true" />
+    <AttributeStars :rating=100  />
+    <AttributeStars :rating=70  />
+    <AttributeStars :rating=70 :showScore="true" />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
+import AttributeStars from './components/AttributeStars.vue';
 
 @Component({
   components: {
-    HelloWorld,
+    AttributeStars,
   },
 })
 export default class App extends Vue {}
 </script>
 
-<style lang="scss">
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

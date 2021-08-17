@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Component Methods has the expected html structure 1`] = `
+<div
+  class="rating-container"
+  style="border-color: #739aff;"
+>
+  <div
+    class="rating-color"
+    style="background-color: rgb(115, 154, 255);"
+  >
+    <h4>
+      AUSZEICHNUNG
+    </h4>
+  </div>
+   
+  <div
+    class="rating-text"
+  >
+    <p
+      class="rating-text-title"
+    >
+      User Bewertung
+    </p>
+     
+    <p
+      class="rating-text-score"
+      style="color: rgb(115, 154, 255);"
+    >
+      SEHR GUT
+    </p>
+  </div>
+   
+  <div
+    class="date"
+  >
+    02/2021
+  </div>
+</div>
+`;
